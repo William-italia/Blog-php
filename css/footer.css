@@ -1,7 +1,7 @@
-footer {
+#footer {
     background: var(--light);
     color: var(--primary-color);
     text-align: center;
     padding: .5rem;
-    font-size: 2rem;
+    font-size: 1rem;
 }

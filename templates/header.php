@@ -1,8 +1,8 @@
 <?php
 
- include_once("./assets/helpers/url.php");
- include_once("./assets/data/posts.php");
- include_once("./assets/data/categories.php");
+ include_once("helpers/url.php");
+ include_once("data/posts.php");
+ include_once("data/categories.php");
  
  ?>
 
@@ -13,9 +13,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- estilos projeto -->
-    <link rel="stylesheet" href="<?php $BASE_URL?>assets/css/header.css">
-    <link rel="stylesheet" href="<?php $BASE_URL?>assets/css/styles.css">
-    <link rel="stylesheet" href="<?php $BASE_URL?>assets/css/footer.css">
+    <link rel="stylesheet" href="<?php $BASE_URL?>css/header.css">
+    <link rel="stylesheet" href="<?php $BASE_URL?>css/styles.css">
+    <link rel="stylesheet" href="<?php $BASE_URL?>css/footer.css">
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,7 +26,7 @@
         <div id="bar-menu">
             <div id="logo">
                 <a href="<?php $BASE_URL ?>">
-                    <img src="<?php $BASE_URL?>assets/img/logo_v.png" alt="">
+                    <img src="<?php $BASE_URL?>img/logo_v.png" alt="">
                 </a>
             </div>
             <nav id="navbar">
