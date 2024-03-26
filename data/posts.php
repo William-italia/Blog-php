@@ -5,7 +5,12 @@ $posts = [
     'id' => 1,
     'title' => 'Programando em PHP',
     'description' => 'Neste post você vai aprender tudo que precisa para ser um bom programador de PHP!',
-    'tags' => ['programação', 'PHP', 'lógica de programação', 'Estudo de caso'],
+    'tags' => [
+      ['name' => 'programação', 'link' => 'programacao.php'],
+      ['name' => 'PHP', 'link' => 'php.php'],
+      ['name' => 'lógica de programação', 'link' => 'logica.php'],
+      ['name' => 'Estudo de caso', 'link' => 'estudo_de_caso.php']
+    ],
     'img' => 'prog-1.jpg'
   ],
   [
