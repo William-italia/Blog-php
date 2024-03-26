@@ -25,7 +25,7 @@
     <header>
         <div id="bar-menu">
             <div id="logo">
-                <a href="<?php $BASE_URL ?>">
+                <a href="<?php $BASE_URL ?>index.php">
                     <img src="<?php $BASE_URL?>img/logo_v.png" alt="">
                 </a>
             </div>
